@@ -1,0 +1,28 @@
+.notFound {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #AFF0E4;
+    background-image: url(../images/giphy.gif);
+    background-repeat: no-repeat;
+    background-size:auto;
+    background-position-x: center;
+    background-position-y: 40%;
+    position: absolute;
+
+}
+
+a button {
+    position: absolute;
+    top: 70%;
+    transform: translateX(-50%);
+    left: 50%;
+    width: 15em;
+    height: 2.5em;
+    background-color: rgba(49, 49, 216, .7);
+    color: #fff;
+    text-shadow: 1px 1px #000;
+    cursor: pointer;
+}
